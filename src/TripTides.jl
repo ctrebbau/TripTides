@@ -1,5 +1,7 @@
 module TripTides
 
-# Write your package code here.
+include(joinpath(@__DIR__, "utils", "HeatData.jl"))
+using .HeatData: heatdata
+
 
 end
